@@ -9,11 +9,11 @@ comment: true
 category: 编译器
 tags: [编译器, vscode]
 ---
-<!-- more-->
+
 # 问题描述
 
 在vscode中没有办法通过 ctrl + 左键 跳转到函数定义，使用的语言为python
-
+<!-- more-->
 # 问题解决
 
 google该问题，发现在 [这里][1]有类似issue   

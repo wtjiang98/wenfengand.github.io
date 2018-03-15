@@ -9,7 +9,7 @@ comment: true
 category: test
 tags: [test, article]
 ---
-<!-- more-->
+
 * content
 {:toc}
 

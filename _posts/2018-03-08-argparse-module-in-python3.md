@@ -9,9 +9,9 @@ comment: true
 category: python
 tags: [python, argparse]
 ---
-<!-- more-->
-在研究TensorFlow代码时发现广泛存在着argparse模块的使用，所以简单地学习下如何使用该模块。
 
+在研究TensorFlow代码时发现广泛存在着argparse模块的使用，所以简单地学习下如何使用该模块。
+<!-- more-->
 # 指定参数、可选参数与未解析参数的混合使用
 
     import argparse
