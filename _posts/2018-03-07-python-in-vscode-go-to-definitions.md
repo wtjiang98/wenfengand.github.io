@@ -5,9 +5,11 @@ date: 2018-03-07 08:00:00 +0800
 lang: cn
 nav: post
 stickie: false 
+comment: true
 category: 编译器
 tags: [编译器, vscode]
 ---
+<!-- more-->
 # 问题描述
 
 在vscode中没有办法通过 ctrl + 左键 跳转到函数定义，使用的语言为python

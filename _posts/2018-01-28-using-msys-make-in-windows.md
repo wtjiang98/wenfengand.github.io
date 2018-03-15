@@ -5,9 +5,11 @@ date: 2018-01-28 08:00:00 +0800
 lang: cn
 nav: post
 stickie: false 
+comment: true
 category: 编译器
 tags: [编译器, cmake]
 ---
+<!-- more-->
 在github上看了很多程序，发现都是用cmake来自动生成makefile，然后进一步执行make来构建程序。
 
 不得不说，cmake的功能很强大，不仅可以生成make的配置文件，还可以生成VS、eclipse的工程文件。但是我在使用时总是碰到很多错误，首先就是cl找不到，用图形化工具时也是找不到。

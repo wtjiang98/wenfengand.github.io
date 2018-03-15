@@ -5,9 +5,11 @@ date: 2018-03-11 08:00:00 +0800
 lang: cn
 nav: post
 stickie: false 
+comment: true
 category: python
 tags: [python, argparse]
 ---
+<!-- more-->
 ## 问题详述
 
 在使用argparse时发现无法传递bool型变量，无论命令行输入True还是False，解析出来之后都是True，代码如下

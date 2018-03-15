@@ -4,10 +4,12 @@ title: "Could not find a version that satisfies the requirement tensorflow (from
 date: 2018-03-06 08:00:00 +0800
 lang: cn
 nav: post
-stickie: true 
+stickie: false 
+comment: true
 category: 机器学习
 tags: [机器学习, tensorflow]
 ---
+<!-- more-->
 ## 安装TensorFlow时碰到如下问题
 
 *   Could not find a version that satisfies the requirement tensorflow (from versions: ) No matching distribution found for tensorflow

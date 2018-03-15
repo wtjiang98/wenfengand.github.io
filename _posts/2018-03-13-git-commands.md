@@ -9,6 +9,7 @@ comments: true
 category: coding
 tags: [git, 命令]
 ---
+<!-- more-->
 ## 推送不同名的本地分支到远程分支
     git push remote localBranchName:remoteBranchName
     git push  <远程地址> <本地分支名>:<远程分支名>

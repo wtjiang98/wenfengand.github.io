@@ -5,10 +5,11 @@ date: 2018-03-06 08:00:00 +0800
 lang: cn
 nav: post
 stickie: false 
+comment: true
 category: 机器学习
 tags: [机器学习, tensorflow]
 ---
-
+<!-- more-->
 ## 解决了Could not find a version that satisfies the..., 出现socket.timeout错误
 
 ### 问题描述

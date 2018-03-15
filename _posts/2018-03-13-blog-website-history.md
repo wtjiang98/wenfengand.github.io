@@ -4,11 +4,12 @@ title: "博客的几次变迁"
 date: 2018-03-13 08:00:00 +0800
 lang: cn
 nav: post
-stickie: true
+stickie: false
 comments: true
 category: 网站
 tags: [博客, 网站, wordpress,  Jekyll]
 ---
+<!-- more-->
 大概是从2017年的年末开始写文章的。
 <br>
 当时在某公司实习，碰到不太懂的技术问题需要搜索，然后自己消化吸收。这期间看了很多很多博客。虽然本科前三年也这样做过，但从来没有想到要自己写一些什么东西，然后分享给大家。

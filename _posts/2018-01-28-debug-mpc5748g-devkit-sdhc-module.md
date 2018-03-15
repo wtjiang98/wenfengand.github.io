@@ -4,10 +4,13 @@ title: "mpc5748g sdhc调试"
 date: 2018-01-28 08:00:00 +0800
 lang: cn
 nav: post
-stickie: true 
+stickie: false 
+comment: true
 category: 嵌入式
 tags: [嵌入式, SD卡]
 ---
+
+<!-- more-->
 ## 现象：
 
 在测试工程中无法初始化SD卡，但是在示例工程中却可以
