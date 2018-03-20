@@ -23,3 +23,14 @@ tags: [git, 命令]
 ```
 git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地, 但是远程仓库的内容会被删除
 ```
+
+## 删除分支 重命名分支
+有时候在其他分支上开发了太多功能，需要取代master，即把正在开发分支取代master分支。
+首先删除分支
+```
+git branch -D branch_name
+```
+然后重命名分支
+```
+git branch -m branch_old_name branch_new_name
+```
