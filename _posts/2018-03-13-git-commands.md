@@ -13,7 +13,7 @@ tags: [git, 命令]
 * content 
 {:toc} 
 曾经使用过的比较实用的命令
-
+<!-- more -->
 ## 推送不同名的本地分支到远程分支
     git push remote localBranchName:remoteBranchName
     git push  <远程地址> <本地分支名>:<远程分支名>
