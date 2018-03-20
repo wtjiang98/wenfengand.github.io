@@ -22,7 +22,7 @@ show_drafts: nil
 lsi: true
 published: false
 safe: false
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 markdown: kramdown
 excerpt_separator: '<!-- more -->'
 
