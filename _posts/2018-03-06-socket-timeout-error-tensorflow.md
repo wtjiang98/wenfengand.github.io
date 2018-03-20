@@ -11,7 +11,7 @@ tags: [机器学习, tensorflow]
 ---
 
 ## 解决了Could not find a version that satisfies the..., 出现socket.timeout错误
-<!-- more-->
+<!-- more -->
 ### 问题描述
 
 *   在运行命令 > (tensorflow)C:> pip install --ignore-installed --upgrade tensorflow-gpu 

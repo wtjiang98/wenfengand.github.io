@@ -13,7 +13,7 @@ tags: [python, argparse]
 ## 问题详述
 
 在使用argparse时发现无法传递bool型变量，无论命令行输入True还是False，解析出来之后都是True，代码如下
-<!-- more-->
+<!-- more -->
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '--isTrain',

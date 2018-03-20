@@ -13,7 +13,7 @@ tags: [python, matlab]
 * content 
 {:toc} 
 一种在matlab和python间共享数据的方法。
-<!--more-->
+<!-- more -->
 
 scipy提供了loadmat和savemat来读写.mat文件
 ```python
