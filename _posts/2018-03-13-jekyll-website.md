@@ -23,3 +23,8 @@ jekyll网站
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
     </script> 
     ```
+## 更改文章的链接
+在_config.yml中找 permalink项，改为如下方式即可去掉默认的链接中的时间项
+```
+permalink: /:title/
+```
