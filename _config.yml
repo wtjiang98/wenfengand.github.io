@@ -1,0 +1,66 @@
+# Resources settings
+source:      .
+layouts:     ./_layouts
+timezone:    Asia/Hongkong
+
+# Site settings
+email: wenfengand@126.com
+author: wenfeng
+owner_name: wang wenfeng
+github_username: wenfengand
+repo: wenfengand.github.io
+
+#Server
+url: http://blog.stackoverflow.club
+github: https://github.com/wenfengand/
+coding:
+baseurl: ""
+
+#Page settings
+future: true
+show_drafts: nil
+lsi: true
+published: false
+safe: false
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+excerpt_separator: '<!-- more -->'
+
+exclude: ['README.md','Manifest.md']
+include: ['robots.txt']
+
+# Description
+description: "记录我的工作与生活，快乐与忧愁"
+# Keywords
+keywords:
+        - "github"
+        - "blog"
+        - "markdown"
+        - "jekyll"
+        - "博客"
+        
+#Update configuration
+versioncode: 1
+        #The current versioncode.
+versionname: "1.0.1"
+        #The current versionname.
+#remind: true
+        #Whether to remind you to upgrade the latest version when there is the latest version.
+
+#Others
+#Baidu
+BaiduSiteVerification: ""
+#Sogou
+SogouSiteVerification: ""
+#360
+360SiteVerification: ""
+#51La
+51la: ""
+51lamb: ""
+
+coding_comments:
+  owner: ''
+  repo: ''
+  oauth:
+    client_id: ''
+    client_secret: ''
