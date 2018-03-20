@@ -21,5 +21,5 @@ tags: [git, 命令]
 
 ## 取消文件追踪
 ```
-git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地。
+git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地, 但是远程仓库的内容会被删除
 ```
