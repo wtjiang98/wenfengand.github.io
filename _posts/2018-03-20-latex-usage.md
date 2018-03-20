@@ -12,7 +12,6 @@ tags: [语法, latex, 教程]
 
 * content 
 {:toc} 
-
 一篇介绍latex语法的教程，仅介绍我曾经使用过的。
 <!--more-->
 
@@ -88,3 +87,8 @@ $$a=\Delta + c$$
 ```tex
 \documentclass[UTF8]{ctexart}
 ```
+
+## latex和docx的互转
+latex转docx：`pandoc -s test.tex -o test.docx`
+
+docx装latex: `pandoc -s test.docx -o test.tex`
