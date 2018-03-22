@@ -56,3 +56,6 @@ sess_g2.run()
 
 ## 其他
 目前只是自己摸索出来的方法，如果发现了更好的技术途径，会及时更新。
+
+Reference:
+1. http://blog.csdn.net/aiya_xiazai/article/details/58701092
