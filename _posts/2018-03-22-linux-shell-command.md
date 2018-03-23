@@ -23,7 +23,10 @@ nvidia-smi
 ```sh
 cat /usr/local/cuda/version.txt
 ```
-
+## 实时查看系统的负载
+```sh
+top
+```
 ## 查看已经开机的时间
 ```sh
 uptime
