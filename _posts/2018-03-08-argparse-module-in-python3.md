@@ -38,5 +38,5 @@ tags: [python, argparse]
 
 *   使用argparse.ArgumentParser()增加一个解析器对象
 *   用add_argument()方法增加一个参数，注意参数前加"--"为可选参数，否则为必选参数
-*   使用parse_known_args()方法解析，返回的第一个参数为已解析的对象，第二个为未解析对象
+*   使用parse_known_args()方法解析，返回的第一个参数为已解析的对象，第二个为未解析对象. 并且，必须在调用的时候提供unparsed供返回，否则会报 `AttributeError: 'tuple' object has no attribute 'op_type'`错误。
 *   使用已解析对象即可访问传入参数
