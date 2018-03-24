@@ -1,7 +1,7 @@
 ---
 layout: postcn
 title: "保研笔记综述"
-date: 2018-03-23 08:00:00 +0800
+date: 2018-03-24 08:00:00 +0800
 lang: cn
 nav: post
 stickie: false
@@ -32,6 +32,9 @@ tags: [ 保研笔记]
 - 数字信号处理 http://blog.stackoverflow.club/baoyan-012.html
 - 信号与系统 http://blog.stackoverflow.club/baoyan-013.html
 - 线性代数 http://blog.stackoverflow.club/baoyan-014.html
+- 转载的其他知识点 http://blog.stackoverflow.club/baoyan-018.html
+- 英文简历速查 http://blog.stackoverflow.club/baoyan-019.html
+
 ## 一些思考
 - 专硕与学硕区别 http://blog.stackoverflow.club/baoyan-015.html
 - 职业与方向选择 http://blog.stackoverflow.club/baoyan-016.html
