@@ -33,4 +33,22 @@ for i = 1:5
 左右闭区间
 
 ## 高维矩阵 
+matlab的高维矩阵是从第三维开始的。
+a(:,:,1) 后面的1表示第一页。前面的与两维矩阵相同。
 https://blog.csdn.net/qq_29540745/article/details/52724365
+
+## 符号运算
+首先，定义符号；
+```matlab
+syms x y
+```
+然后，定义运算；
+```matlab
+a = x + y;
+```
+最后，给x, y 赋值，获得结果。
+```matlab
+x = 1;
+y = 2;
+result = eval(a);
+```
