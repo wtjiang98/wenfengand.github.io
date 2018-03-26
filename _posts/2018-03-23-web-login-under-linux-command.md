@@ -1,6 +1,6 @@
 ---
 layout: postcn
-title: "在python中实现密文输入"
+title: "在python中实现模拟网页认证"
 date: 2018-03-23 08:00:00 +0800
 lang: cn
 nav: post
