@@ -41,3 +41,9 @@ git reflog
 git reset --hard commits_you_want_to_retrieve
 ```
 
+## 纯命令行界面查看文件修改
+在执行commit之前执行这个命令
+```git
+git diff file_name
+```
+
