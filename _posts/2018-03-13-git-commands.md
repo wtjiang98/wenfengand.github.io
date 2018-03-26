@@ -27,10 +27,17 @@ git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地, 
 ## 删除分支 重命名分支
 有时候在其他分支上开发了太多功能，需要取代master，即把正在开发分支取代master分支。
 首先删除分支
-```
+```sh
 git branch -D branch_name
 ```
 然后重命名分支
-```
+```sh
 git branch -m branch_old_name branch_new_name
 ```
+
+## 撤销git reset
+```sh
+git reflog
+git reset --hard commits_you_want_to_retrieve
+```
+
