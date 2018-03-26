@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<!-- add table of content -->
+<script type="text/javascript" src="/assets/js/toc.js"></script>
 <div class="blog-post">
             <h2 class="blog-post-title">{{ page.title }}</h2>
 			{% if page.lastdate %}
@@ -15,6 +17,12 @@ layout: default
 			{{ content }}
 			<p><span class="glyphicon glyphicon-tags"></span> {% for tag in page.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}</p>
 </div>
+<div id="toc"></div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#toc').toc();
+	});
+</script>
 <!--include post share-->
 {% include post_share.html %}
 <div id="disqus_thread"></div>
@@ -44,7 +52,5 @@ s.setAttribute('data-timestamp', +new Date());
 
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}      
-<a href="http://wenfengand.com/article2.html#disqus_thread">Second article</a>                 
-
+{% endif %}
 
