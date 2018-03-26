@@ -15,7 +15,6 @@
     },
     settings = $.extend(defaults, options);
 
-    html = settings.title + " <" + settings.listType + " class = 'nav nav-pills nav-stacked'>";
     function fixedEncodeURIComponent (str) {
       return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
         return '%' + c.charCodeAt(0).toString(16);
@@ -57,7 +56,8 @@
 
     var level = get_level(headers[0]),
       this_level,
-      html = settings.title + " <" +settings.listType + " class=\"" + settings.classes.list +"\">";
+      html = settings.title + " <" +settings.listType + " class = 'nav nav-pills nav-stacked'>";
+      //html = settings.title + " <" +settings.listType + " class=\"" + settings.classes.list +"\">";
     headers.on('click', function() {
       if (!settings.noBackToTopLinks) {
         window.location.hash = this.id;
