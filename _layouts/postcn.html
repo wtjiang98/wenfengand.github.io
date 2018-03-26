@@ -2,6 +2,8 @@
 layout: default
 ---
 <!-- add table of content -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/toc.js"></script>
 <div class="blog-post">
             <h2 class="blog-post-title">{{ page.title }}</h2>
@@ -17,6 +19,7 @@ layout: default
 			{{ content }}
 			<p><span class="glyphicon glyphicon-tags"></span> {% for tag in page.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}</p>
 </div>
+<body  data-spy="scroll" data-target=".toc" data-offset="20"></body>
 <div id="toc"></div>
 <script type="text/javascript">
 	$(document).ready(function() {

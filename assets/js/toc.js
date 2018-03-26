@@ -15,6 +15,7 @@
     },
     settings = $.extend(defaults, options);
 
+    html = settings.title + " <" + settings.listType + " class = 'nav nav-pills nav-stacked'>";
     function fixedEncodeURIComponent (str) {
       return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
         return '%' + c.charCodeAt(0).toString(16);
