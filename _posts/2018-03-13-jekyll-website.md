@@ -11,8 +11,6 @@ tags: [website, jekyll]
 ---
 
 
-* content 
-{:toc} 
 jekyll网站
 <!-- more -->
 ## 显示公式

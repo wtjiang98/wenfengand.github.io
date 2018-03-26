@@ -10,8 +10,7 @@ category: python
 tags: [python]
 ---
 
-* content 
-{:toc} 
+
 星号表达式，有意思的小东西
 <!-- more -->
 在使用python给图片加噪声时，用到了 np.random.randn()函数，经测试明明可以输入要用的矩阵大小，得到一个随机数矩阵的，但是一运行就报错，

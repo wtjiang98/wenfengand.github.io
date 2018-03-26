@@ -10,8 +10,7 @@ category: 语法
 tags: [语法, latex, 教程]
 ---
 
-* content 
-{:toc} 
+
 一篇介绍latex语法的教程，仅介绍我曾经使用过的。
 <!-- more -->
 

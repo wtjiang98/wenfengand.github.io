@@ -11,9 +11,6 @@ tags: [latex, perl]
 ---
 
 
-* content 
-{:toc} 
-
 
 vscode + latex workshop开写论文
 <!-- more -->

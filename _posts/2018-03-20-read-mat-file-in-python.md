@@ -10,8 +10,7 @@ category: python
 tags: [python, matlab]
 ---
 
-* content 
-{:toc} 
+
 一种在matlab和python间共享数据的方法。
 <!-- more -->
 

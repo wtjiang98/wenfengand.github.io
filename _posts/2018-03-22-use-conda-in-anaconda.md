@@ -10,8 +10,7 @@ category: python
 tags: [conda, python]
 ---
 
-* content 
-{:toc} 
+
 python代码的依赖包众多，版本也各不相同，安装各种不同的虚拟环境很有必要，尤其是测试github上的代码。
 <!-- more -->
 ## 安装Anaconda

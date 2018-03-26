@@ -11,8 +11,6 @@ tags: [tensorflow, 机器学习语言]
 ---
 
 
-* content 
-{:toc} 
 
 
 主要是通读《TensorFlow实战Google深度学习框架》的记录

@@ -10,9 +10,6 @@ category: test
 tags: [test, article]
 ---
 
-* content
-{:toc}
-
 请在这儿写文章
 <!-- more -->
 在这儿写文章

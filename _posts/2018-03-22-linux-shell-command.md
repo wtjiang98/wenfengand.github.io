@@ -10,8 +10,7 @@ category: linux命令
 tags: [shell]
 ---
 
-* content 
-{:toc} 
+
 最近在使用实验室的gpu 服务器，发现作为普通用户使用服务器还是和特权用户有很大区别的。
 <!-- more -->
 ## 查看显卡信息

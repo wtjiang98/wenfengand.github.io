@@ -10,8 +10,7 @@ category: tensorflow
 tags: [tensorflow, python]
 ---
 
-* content 
-{:toc} 
+
 有网的情况下安装tensorflow自然舒服，但是总是由于种种原因，我们需要离线安装。比如，保密，gpu服务器联网需要登录账号然而你又没有上网账号等等。
 <!-- more -->
 

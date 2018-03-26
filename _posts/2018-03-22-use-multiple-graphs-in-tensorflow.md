@@ -10,8 +10,7 @@ category: tensorflow
 tags: [tensorflow, python]
 ---
 
-* content 
-{:toc} 
+
 在一个网络的输入依赖与另一个网络的输出时，就要在tensorflow中同时使用多张图。
 <!-- more -->
 

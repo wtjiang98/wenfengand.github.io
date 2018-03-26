@@ -10,8 +10,7 @@ category: python
 tags: [ python]
 ---
 
-* content 
-{:toc} 
+
 输入密码，不留痕迹
 <!-- more -->
 ```python
