@@ -124,6 +124,11 @@ tmux
 ------| ----
 "     | 上下分屏
 %     | 左右分屏
+pageup | 向上翻页
+pagedown | 向下翻页
+
+如果要退出翻页模式，需要按esc， 不用输入ctrl + b
+
 Reference：
 1. comm  https://blog.csdn.net/shuckstark/article/details/7872176
 2. diff https://www.cnblogs.com/wangqiguo/p/5793448.html
