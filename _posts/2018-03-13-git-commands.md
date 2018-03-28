@@ -38,6 +38,34 @@ git branch -m branch_old_name branch_new_name
 git reflog
 git reset --hard commits_you_want_to_retrieve
 ```
+## 撤销git add
+```sh
+git reset HEAD
+```
+## 单个文件撤销更改
+1. 如果没有被git add到索引区
+```
+git checkout a 
+```
+便可撤销对文件a的修改
+2. 如果被git add到索引区，但没有做git commit提交1）
+
+将a从索引区移除（但会保留在工作区）
+```
+git reset  HEAD a
+```
+```
+git checkout a 
+```
+3. 如果已被提交
+```
+git reset  HEAD^
+```
+先回退当前提交到工作区，然后撤销文件a的修改回退当前提交到工作区
+```
+git checkout a
+```
+撤销工作区中文件a的修改
 
 ## 纯命令行界面查看文件修改
 在执行commit之前执行这个命令
