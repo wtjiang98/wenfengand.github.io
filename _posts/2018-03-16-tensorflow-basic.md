@@ -198,5 +198,14 @@ with tf.Session as sess:
 # 循环神经网络
 # LSTM
 
+# 指定GPU
+在多用户的GPU服务器上跑代码，默认可能会使用GPU0，这时，
+如果其他人也使用了GPU0， 很可能会资源分配不足报错。
+使用下面的代码可以指定运行的GPU。
+```python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+```
+
 
 
