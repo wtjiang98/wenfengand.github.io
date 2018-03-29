@@ -4,7 +4,7 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'PT Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
   color: #555;
 }
 
@@ -102,6 +102,7 @@ h6, .h6 {
 .blog-main {
   font-size: 18px;
   line-height: 1.5;
+  margin-top: 50px;
 }
 
 /* Sidebar modules for boxing content */
