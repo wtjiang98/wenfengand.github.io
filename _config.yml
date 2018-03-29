@@ -19,7 +19,7 @@ baseurl: ""
 #Page settings
 future: true
 show_drafts: nil
-lsi: true
+lsi: false
 published: false
 safe: false
 permalink: /:title/
