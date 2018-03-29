@@ -129,6 +129,13 @@ pagedown | 向下翻页
 
 如果要退出翻页模式，需要按esc， 不用输入ctrl + b
 
+## shell已退出，但是依旧处于登录状态
+经常会碰到忘记使用`exit`退出shell的情况，下次登录时
+使用`w`命令发现自己的账户登录了好几次，那怎样删除这些已经
+不用的登录呢？
+1. 使用tmux登录 `ps -ef | grep tmux`后找到对应的PID kill掉就可以了
+2. 使用putty登录，`w`查看下之前的登录都在运行哪些程序，找到这些进程删掉就可以
+
 Reference：
 1. comm  https://blog.csdn.net/shuckstark/article/details/7872176
 2. diff https://www.cnblogs.com/wangqiguo/p/5793448.html
