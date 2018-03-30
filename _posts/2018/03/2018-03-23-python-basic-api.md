@@ -41,3 +41,43 @@ print('hello %s%.4f' %('str', 5.0))
 ```python
 print('hello {:.4f}/{:.5f} {}'.format(5,6,'str'))
 ```
+
+## matplotlib
+
+### ssh远程操作 出现RuntimeError: Invalid DISPLAY variable
+添加如下代码
+```python
+plt.switch_backend('agg')
+```
+[参考页面](https://www.cnblogs.com/bymo/p/7447409.html)
+
+### 保存图像
+使用plt.savefig
+```python
+import matplotlib.pyplot as plt
+plt.savefig("filename.png")
+plt.show()
+```
+注意savefig必须在show之前调用，否则show之后默认开新图，保存的图一片空白
+
+或者，使用gcf方法
+```python
+fig = plt.gcf()
+plt.show()
+fig1.savefig('test.jpg', dpi=100)
+```
+
+### 图像格式
+在plt.savefig()方法中增加format=参数
+可选的参数如下：
+- jpg
+- png
+- pdf
+- eps
+- svg
+
+完整的调用方法为
+`plt.savefig('file_name', format='jpg')`
+如果不指定format，默认为jpg格式，与文件的后缀名无关
+
+### 
