@@ -62,3 +62,14 @@ font-family: 'PT Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Hir
 ```
 
 ## 增加toc后导航栏遮挡
+待解决
+
+## jekyll build timeout
+重新在云主机上部署了jekyll之后，把自己的post传进去，运行jekyll build后
+总是卡在`Rebuilding index`处，网上提出安装`gsl`，但是在ubuntu上使用
+命令`apt install gsl`无法安装或者推荐的包没有效果，最终的解决方案如下：
+
+在_config.yml中找到`lsi`项，设置为`lsi: false`就可以快速编译成功
+
+## coding pages出现编译错误，无法部署分支
+解决方案同 jekyll build timeout项，禁止编译lsi
