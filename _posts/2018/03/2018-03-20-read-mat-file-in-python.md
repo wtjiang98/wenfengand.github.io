@@ -11,10 +11,13 @@ tags: [python, matlab]
 ---
 
 
-一种在matlab和python间共享数据的方法。
+两种在matlab和python间共享数据的方法。
+
+一是用scipy
+二是用h5py
 <!-- more -->
 
-scipy提供了loadmat和savemat来读写.mat文件
+## scipy提供了loadmat和savemat来读写.mat文件
 ```python
 import scipy.io as sio
 #matlab文件名 
@@ -45,6 +48,11 @@ save_array_x = np.array([1,2,3,4])
 save_array_y = np.array([5,6,7,8])
 sio.savemat(save_fn, {'array_x': save_array_x, 'array_x': save_array_x}) #同理，只是存入了两个不同的变量供
 ```
+
+## python还提供了h5py来读取mat文件，针对使用scipy出现 NotImplementedError
+
+传送门
+http://blog.stackoverflow.club/hdf5-usage/
 
 Reference
 1. http://www.jb51.net/article/135384.htm
