@@ -80,4 +80,58 @@ fig1.savefig('test.jpg', dpi=100)
 `plt.savefig('file_name', format='jpg')`
 如果不指定format，默认为jpg格式，与文件的后缀名无关
 
-### 
+### 画多个子图
+
+共享x y轴的意思是，多张图是否使用同一个单位刻度，共享后只会在最左边的y轴和最下边的
+x轴标出数字，其他轴只有单位刻度。
+```python
+import numpy as np 
+import matplotlib.pyplot as plt 
+
+x = np.linspace(0, 2*np.pi, 400)
+y = np.sin(x**2)
+
+# 不共享y轴
+f, (ax1, ax2) = plt.subplots(1, 2, sharey=False)
+ax1.plot(x, y)
+ax1.set_title('Not sharing Y axis')
+ax2.scatter(x, y)
+
+# 共享y轴
+f, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
+ax1.plot(x, y)
+ax1.set_title('Sharing Y axis')
+ax2.scatter(x, y)
+
+
+plt.show()
+
+```
+Creates four polar axes, and accesses them through the returned array
+```python
+>>> fig, axes = plt.subplots(2, 2, subplot_kw=dict(polar=True))
+>>> axes[0, 0].plot(x, y)
+>>> axes[1, 1].scatter(x, y)
+```
+
+增加子图的title
+```python
+ax.set_title('Simple plot')
+```
+[参考](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots.html)
+
+## zip函数
+zip() 函数用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，然后返回由这些元组组成的列表。
+
+如果各个迭代器的元素个数不一致，则返回列表长度与最短的对象相同，利用 * 号操作符，可以将元组解压为列表。
+```python
+>>>a = [1,2,3]
+>>> b = [4,5,6]
+>>> c = [4,5,6,7,8]
+>>> zipped = zip(a,b)     # 打包为元组的列表
+[(1, 4), (2, 5), (3, 6)]
+>>> zip(a,c)              # 元素个数与最短的列表一致
+[(1, 4), (2, 5), (3, 6)]
+>>> zip(*zipped)          # 与 zip 相反，可理解为解压，返回二维矩阵式
+[(1, 2, 3), (4, 5, 6)]
+```
