@@ -73,3 +73,16 @@ git checkout a
 git diff file_name
 ```
 
+## 暂存文件
+如果想要切换到另一个分支，但是current branch中有需要提交的东西，但是你又不想提交。
+这时可以使用git stash命令。
+
+暂存更改到堆栈中
+```git
+git stash
+```
+
+从堆栈中弹出更改
+```git
+git  stash apply
+```
