@@ -204,7 +204,21 @@ with tf.Session as sess:
 使用下面的代码可以指定运行的GPU。
 ```python
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1,2"
+```
+
+# 设置定量的GPU使用量
+```python
+config = tf.ConfigProto() 
+config.gpu_options.per_process_gpu_memory_fraction = 0.9 # 占用GPU90%的显存 
+session = tf.Session(config=config)
+```
+
+#设置最小的GPU使用量
+```python
+config = tf.ConfigProto() 
+config.gpu_options.allow_growth = True 
+session = tf.Session(config=config)
 ```
 
 
