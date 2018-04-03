@@ -10,7 +10,7 @@ category: python
 tags: [python]
 ---
 
-与本文相关的文章：[pythonz中的深浅复制](blog.stackoverflow.club/python-deep-shallow-copy)
+与本文相关的文章：[pythonz中的深浅复制](http://blog.stackoverflow.club/python-deep-shallow-copy)
 
 ## 内存分配
 与你想象中不同的，尤其是从c转过来的程序员，python是一门动态类型的语言，其对象与引用是分离的，与java相似。
