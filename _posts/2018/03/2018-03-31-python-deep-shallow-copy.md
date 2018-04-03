@@ -14,6 +14,8 @@ tags: [python]
 
 ***
 
+与本文相关的文章： [python的内存管理](blog.stackoverflow.club/memory-control-in-python)
+
 在使用python对数据对预处理，比如归一化、去噪时，发现处理后的数据会有诡异的
 现象，比如全部都是一样的，或者某些都是一样的。
 
