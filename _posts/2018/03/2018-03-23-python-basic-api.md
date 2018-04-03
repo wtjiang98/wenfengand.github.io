@@ -114,12 +114,40 @@ Creates four polar axes, and accesses them through the returned array
 >>> axes[1, 1].scatter(x, y)
 ```
 
-增加子图的title
+### 增加子图的title
 ```python
 ax.set_title('Simple plot')
 ```
 [参考](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots.html)
 
+### 画grid
+```python
+ plt.grid(True, color='grey', linestyle='-', linewidth=1)
+ ```
+
+ ### 关闭坐标刻度
+ ```python
+ plt.xticks([])
+ plt.yticks([])
+ ```
+
+ ### 关闭坐标轴
+ 整个坐标系统都不见了，只剩下曲线
+ ```python
+ plt.axis('off')
+ ```
+
+ ### 设置图像dpi
+ ```python
+ plt.savefig(..., dpi=150)
+ ```
+
+ ### 坐标轴不可见
+ ```python
+ frame = plt.gca()
+ frame.axes.get_yaxis().set_visible(False)
+ frame.axes.get_xaxis().set_visible(False)
+ ```
 ## zip函数
 zip() 函数用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，然后返回由这些元组组成的列表。
 
