@@ -34,6 +34,6 @@ def function_my():
     name = 'a'
 
 print(name)
-# 输出
-# b
+#输出
+#b
 ```
