@@ -65,6 +65,9 @@ file:///home/your_name/shadowsocks/autoproxy.pac
 
 其中，your_name是需要根据实际情况更改的内容。
 
+Reference:
+1. http://blog.leanote.com/post/sxdeveloper/Ubuntu%E4%B8%8B%E8%AE%BE%E7%BD%AEShadowsocks%E7%9A%84%E9%9D%9E%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86%EF%BC%88PAC%E8%87%AA%E5%8A%A8%E4%BB%A3%E7%90%86%EF%BC%89
+
 关掉界面就可以愉快地自动pac了。
 
 当然，前提是你有配置好的服务器，本地也开启了sslocal.
