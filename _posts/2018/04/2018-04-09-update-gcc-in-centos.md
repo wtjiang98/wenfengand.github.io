@@ -7,7 +7,7 @@ nav: post
 stickie: false 
 comment: true
 category: 编程
-tags: [yum, centos, cosfs]
+tags: [yum, centos, gcc]
 ---
 
 # 博物馆里的gcc
